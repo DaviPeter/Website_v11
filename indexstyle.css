@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100vw;
+    height: 9vh;
+    background-color: #333;
+    border-bottom: 1px solid #111;
+}
+
+header h1 {
+    margin-left: 3vw;
+    margin-right: 27vw;
+    font-size: 4vh;
+    color: whitesmoke;
+}
+
+#header-navegation {
+    display: flex;
+}
+
+#nav-menu {
+    display: flex;
+    gap: 2vw;
+}
+
+#nav-menu a {
+    font-size: 2.1vh;
+    color: whitesmoke;
+}
+
+#header-bottom {
+    background-color: rgb(218, 180, 147);
+    border-bottom: 2px solid rgb(184, 151, 121);
+    width: 100vw;
+    height: 45vh;
+}
+
+#header-bottom-content {
+    padding: 7vh 25vw;
+}
+
+#header-bottom h1 {
+    margin-bottom: 1vh;
+    font-size: 6.5vh;
+    color: #111;
+}
+
+#header-bottom h2 {
+    color: rgb(158, 120, 87);
+    margin-bottom: 5vh;
+}
+
+#header-bottom h3 {
+    color: rgb(158, 120, 87);
+}
+
+/* Navegação do Main */
+
+#main-navegation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+}
+
+#main-navegation-menu {
+    display: flex;
+    gap: 3vw;
+}
+
+#main-navegation-menu a {
+    color: #222;
+}
+
+/* Main Sessôes */
+
+#section-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #222;
+}
+
+#section-1 {
+    width: 60vw;
+    height: 30vh;
+    background-color: white;
+    margin: 3vh 6vw;
+    padding: 2vh 3vw;
+}
+
+#section-2 {
+    width: 60vw;
+    height: 30vh;
+    background-color: white;
+    margin: 3vh 6vw;
+    padding: 2vh 3vw;
+}
+
+#section-3 {
+    width: 60vw;
+    height: 30vh;
+    background-color: white;
+    margin: 3vh 6vw;
+    padding: 2vh 3vw;
+}
+
