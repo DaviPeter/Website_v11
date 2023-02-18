@@ -19,17 +19,16 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: left;
-    width: 100vw;
+    justify-content: center;
+    width: 100%;
     height: 9vh;
     background-color: #333;
     border-bottom: 1px solid #111;
 }
 
 header h1 {
-    margin-left: 3vw;
-    margin-right: 27vw;
-    font-size: 4vh;
+    margin-right: 50px;
+    font-size: 1.8rem;
     color: whitesmoke;
 }
 
@@ -39,34 +38,39 @@ header h1 {
 
 #nav-menu {
     display: flex;
-    gap: 2vw;
+    gap: 20px;
 }
 
 #nav-menu a {
-    font-size: 2.1vh;
+    font-size: 0.95rem;
     color: whitesmoke;
 }
+
+/* Header Bottom */
 
 #header-bottom {
     background-color: rgb(218, 180, 147);
     border-bottom: 2px solid rgb(184, 151, 121);
-    width: 100vw;
+    width: 100%;
     height: 45vh;
+    display: flex;
+    justify-content: center;
 }
 
 #header-bottom-content {
-    padding: 7vh 25vw;
+    width: 65%;
+    padding: 20px 0;
 }
 
 #header-bottom h1 {
-    margin-bottom: 1vh;
-    font-size: 6.5vh;
+    margin-bottom: 10px;
+    font-size: 2.7rem;
     color: #111;
 }
 
 #header-bottom h2 {
     color: rgb(158, 120, 87);
-    margin-bottom: 5vh;
+    margin-bottom: 70px;
 }
 
 #header-bottom h3 {
@@ -79,14 +83,15 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     height: 8vh;
     background-color: white;
+    border-bottom: 1px solid rgb(215, 215, 215);
 }
 
 #main-navegation-menu {
     display: flex;
-    gap: 3vw;
+    gap: 30px;
 }
 
 #main-navegation-menu a {
@@ -106,23 +111,76 @@ header h1 {
     width: 60vw;
     height: 30vh;
     background-color: white;
-    margin: 3vh 6vw;
-    padding: 2vh 3vw;
+    margin: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
 }
 
 #section-2 {
     width: 60vw;
     height: 30vh;
     background-color: white;
-    margin: 3vh 6vw;
-    padding: 2vh 3vw;
+    margin: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
 }
 
 #section-3 {
     width: 60vw;
     height: 30vh;
     background-color: white;
-    margin: 3vh 6vw;
-    padding: 2vh 3vw;
+    margin: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+    header h1 {
+        position: absolute;
+        top: 15px;
+        left: 200px;
+    }
+    #header-navegation {
+        position: absolute;
+        top: 22px;
+        left: 350px;
+    }
+}
+
+@media (max-width: 560px) {
+    header h1 {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+    #header-navegation {
+        position: absolute;
+        top: 22px;
+        left: 155px;
+    }
+
+    #nav-menu a {
+        font-size: 0.9rem;
+    }
+
+    #header-bottom h1 {
+        font-size: 2.5rem;
+    }
+
+    #header-bottom h2 {
+        font-size: 1.3rem;
+        margin-bottom: 25px;
+    }
+
+    #header-bottom h3 {
+        font-size: 0.9rem;
+    }
+
+    #main-navegation {
+        font-size: 0.85rem;
+    }
 }
 
