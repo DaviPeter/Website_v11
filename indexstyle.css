@@ -149,7 +149,10 @@ header h1 {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 600px) {
+    * {
+        width: 100%;
+    }
    header {
     background-color: blue;
    }
