@@ -149,38 +149,8 @@ header h1 {
     }
 }
 
-@media (max-width: 560px) {
-    header h1 {
-        font-size: 1.5rem;
-        position: absolute;
-        top: 15px;
-        left: 20px;
-    }
-    #header-navegation {
-        position: absolute;
-        top: 22px;
-        left: 155px;
-    }
-
-    #nav-menu a {
-        font-size: 0.9rem;
-    }
-
-    #header-bottom h1 {
-        font-size: 2.5rem;
-    }
-
-    #header-bottom h2 {
-        font-size: 1.3rem;
-        margin-bottom: 25px;
-    }
-
-    #header-bottom h3 {
-        font-size: 0.9rem;
-    }
-
-    #main-navegation {
-        font-size: 0.85rem;
+@media (max-width: 540px) {
+    header {
+        background-color: blue;
     }
 }
-
