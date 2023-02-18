@@ -136,7 +136,7 @@ header h1 {
 
 /* Responsividade */
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
     header h1 {
         position: absolute;
         top: 15px;
