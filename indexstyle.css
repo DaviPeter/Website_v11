@@ -153,7 +153,45 @@ header h1 {
     * {
         width: 100%;
     }
-   header {
-    background-color: blue;
+   header h1 {
+    position: absolute;
+    top: 12px;
+    left: 185px;
+   }
+
+   #header-navegation {
+    display: none;
+   }
+
+   #header-bottom-content {
+    width: 70%;
+   }
+
+   #header-bottom h1 {
+    font-size: 2.2rem;
+   }
+
+   #header-bottom h2 {
+    font-size: 1.2rem;
+    margin-bottom: 45px;
+   }
+
+   #header-bottom h3 {
+    font-size: 0.9rem;
+   }
+
+   #main-navegation {
+    display: flex;
+    justify-content: space-around;
+   }
+
+   #main-navegation-menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+   }
+
+   #main-navegation-menu a {
+    font-size: 0.9rem;
    }
 }
