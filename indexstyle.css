@@ -12,6 +12,7 @@
 
 body {
     background-color: whitesmoke;
+     overflow-x: hidden; 
 }
 
 /* Header */
@@ -136,6 +137,8 @@ header h1 {
 
 /* Responsividade */
 
+
+
 @media (max-width: 960px) {
     header h1 {
         position: absolute;
@@ -195,3 +198,4 @@ header h1 {
     font-size: 0.9rem;
    }
 }
+
